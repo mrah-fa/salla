@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="all your " />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Salla Store</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container flex">
+          <div class="link">
+            <span class="list">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <ul class="flex-g20">
+              <li><a href="#Contact us" class="gray">Contact us</a></li>
+              <li>
+                <a href="#Exchange or return policy" class="gray"
+                  >Exchange or return policy</a
+                >
+              </li>
+              <li><a href="#Favorite" class="gray">Favorite</a></li>
+              <li><a href="#Ar/En" class="gray">Ar/En</a></li>
+            </ul>
+          </div>
+          <div class="contact flex-g20">
+            <div class="email flex-g8">
+              <p class="gray">Support@salla.sa</p>
+              <div class="info-con">
+                <a href="Support@salla.sa"
+                  ><img
+                    src="./assets/img/email.png"
+                    alt="email"
+                    title="email:Support@salla.sa"
+                /></a>
+              </div>
+            </div>
+            <div class="phone flex-g8">
+              <p class="gray">+966556754472</p>
+              <div class="info-con">
+                <a href="+966556754472"
+                  ><img
+                    src="./assets/img/callphone.png"
+                    alt="callphone"
+                    title="call:+966556754472"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar flex">
+          <a href="./index.html"><img src="./assets/img/logo.png" alt="logo-salla" class="logo" /></a>
+          <div class="shop flex-g32">
+            <div class="cart layout flex-g8">
+              <ul class="text">
+                <li class="welc"><a href="./cart.html" class="black">Shopping Cart</a></li>
+                <li class="dark">1,200 SR</li>
+              </ul>
+              <div>
+                <a href="./cart.html"
+                  ><img src="./assets/img/sopping-cart.png" alt="sopping-cart" class="ico"
+                /></a>
+              </div>
+            </div>
+            <div class="welcome layout flex-g8">
+              <ul class="text">
+                <li class="black">welcome</li>
+                <li>
+                  <a href="./info.html"  class="black"><span>^</span>Login</a>
+                </li>
+              </ul>
+              <div class="login">
+                <a href="./info.html"
+                  ><img src="./assets/img/login.png" alt="Login" class="ico"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="all-product">
+        <div class="container">
+          <div class="table">
+            <div class="tab">
+              <img src="./assets/img/table.svg" alt="">
+            </div>
+            <table>
+              <tr class="flex">
+                <td class="dark">Category</td>
+                <td><img src="./assets/img/top-arrow.png" alt="" /></td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(100)</td>
+                <td class="dark flex-g8">
+                  <input
+                    type="radio"
+                    class="radio"
+                    name="category"
+                    id="all"
+                    checked
+                  />
+                  <label for="all">All</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray right-16px">(60)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="category" id="mobile" />
+                  <label for="mobile">Electronics and mobile phones</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(25)</td>
+                <td class="gray flex-g8">
+                  <input
+                    type="radio"
+                    class="radio"
+                    name="category"
+                    id="screens"
+                  />
+                  <label for="screens">TV and screens</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(30)</td>
+                <td class="gray flex-g8">
+                  <input
+                    type="radio"
+                    class="radio"
+                    name="category"
+                    id="airPods"
+                  />
+                  <label for="airPods">AirPods</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(36)</td>
+                <td class="gray flex-g8">
+                  <input
+                    type="radio"
+                    class="radio"
+                    name="category"
+                    id="Digital cameras"
+                  />
+                  <label for="Digital cameras">Digital cameras</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(10)</td>
+                <td class="gray flex-g8">
+                  <input
+                    type="radio"
+                    class="radio"
+                    name="category"
+                    id="speakers"
+                  />
+                  <label for="speakers">Speakers</label>
+                </td>
+              </tr>
+              <tr>
+                <td class="special dark">Show More</td>
+              </tr>
+              <tr>
+                <td class="break"><hr /></td>
+              </tr>
+              <tr class="flex">
+                <td class="dark">Brand</td>
+                <td><img src="./assets/img/top-arrow.png" alt="" /></td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(100)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="brand" id="All" />
+                  <label for="All">All</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray right-16px">(30)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="brand" id="HP" />
+                  <label for="HP">HP</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(34)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="brand" id="Apple" />
+                  <label for="Apple">Apple</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(25)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="brand" id="Samsung" />
+                  <label for="Samsung">Samsung</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(12)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="brand" id="Dell" />
+                  <label for="Dell">Dell</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(9)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="brand" id="Lenovo" />
+                  <label for="Lenovo">Lenovo</label>
+                </td>
+              </tr>
+              <tr>
+                <td class="special dark">Show More</td>
+              </tr>
+              <tr>
+                <td class="break"><hr /></td>
+              </tr>
+              <tr class="flex">
+                <td class="dark">Color</td>
+                <td><img src="./assets/img/top-arrow.png" alt="" /></td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(50)</td>
+                <td class="dark flex-g8">
+                  <input type="radio" class="radio" name="Color" />
+                  <label for="r">All</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray right-16px">(8)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="Color" id="red" />
+                  <label for="red" class="flex-g8"
+                    >Red
+                    <div class="red circle"></div>
+                  </label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(3)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="Color" id="green" />
+                  <label for="green" class="flex-g8"
+                    >Green
+                    <div class="green circle"></div>
+                  </label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(12)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="Color" id="black" />
+                  <label for="black" class="flex-g8"
+                    >Black
+                    <div class="black circle"></div>
+                  </label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(9)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="Color" id="blue" />
+                  <label for="blue" class="flex-g8"
+                    >Blue
+                    <div class="blue circle"></div>
+                  </label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(4)</td>
+                <td class="gray flex-g8">
+                  <input type="radio" class="radio" name="Color" id="yellow" />
+                  <label for="yellow" class="flex-g8"
+                    >Yellow
+                    <div class="yellow circle"></div>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td class="special dark">Show More</td>
+              </tr>
+              <tr>
+                <td class="break"><hr /></td>
+              </tr>
+
+              <tr class="flex">
+                <td class="dark">Rating</td>
+                <td><img src="./assets/img/top-arrow.png" alt="" /></td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(80)</td>
+                <td class="dark flex-g8">
+                  <input type="radio" class="radio" name="rating" checked />
+                  <label for="r">All</label>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(32)</td>
+                <td class="flex-g8">
+                  <div class="star">
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                  </div>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray right-16px">(21)</td>
+                <td class="gray flex-g8">
+                  <div class="star">
+                    <img src="./assets/img/Star-g.png" alt="Star-g" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                  </div>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(2)</td>
+                <td class="gray flex-g8">
+                  <div class="star">
+                    <img src="./assets/img/Star-g.png" alt="Star-g" />
+                    <img src="./assets/img/Star-g.png" alt="Star-g" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                  </div>
+                </td>
+              </tr>
+              <tr class="flex">
+                <td class="gray">(30)</td>
+                <td class="gray flex-g8">
+                  <div class="star">
+                    <img src="./assets/img/Star-g.png" alt="Star-g" />
+                    <img src="./assets/img/Star-g.png" alt="Star-g" />
+                    <img src="./assets/img/Star-g.png" alt="Star-g" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                    <img src="./assets/img/Star.png" alt="Star" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="dark">
+                  <button type="reset" class="btn-reset">Reset</button>
+                </td>
+              </tr>
+          </table>
+          </div>
+          <div class="product">
+            <div class="cards flex">
+              <div class="card flex-col">
+                <div class="smart count">
+                  <a href="./details-product.html"><img src="./assets/img/earphone-bluetooth.png" alt="smart-watche" /></a>
+                  <div class="top pri">
+                    <p class="discount desc">25%</p>
+                  </div>
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile phones</span>
+                      <h6>AirPods 3 sim original</h6>
+                      <p>High-fidelity sound headphone</p>
+                      <p class="price-bl">250.00 SR </p>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart">
+                  <img src="./assets/img/smart-watche2.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>watches</span>
+                      <h6>New smart watch series 8</h6>
+                      <p>Black sports bracelet - regular.</p>
+                      <del>350.00 SR </del>
+                      <span class="price">250.00 SR </span>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col" id="choise">
+                <div class="smart">
+                  <img src="./assets/img/iphone.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile phones</span>
+                      <h6>Apple iPhone 14 mobile phone</h6>
+                      <p>6.1-inch Super Retina XDR display</p>
+                      <p class="price-bl">250.00 SR </p>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart">
+                  <img src="./assets/img/earphone-bluetooth.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile phones</span>
+                      <h6>AirPods 3 sim original</h6>
+                      <p>High-fidelity sound headphone</p>
+                      <p class="price-bl">250.00 SR </p>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="smart">
+                  <img src="./assets/img/oppo-ph.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile phones</span>
+                      <h6>Apple iPad Pro 12.9 inch Wi-Fi</h6>
+                      <p>Gorgeous 11" Liquid Retina XDR screen</p>
+                      <div class="prices">
+                        <del>350.00 SR </del>
+                        <span class="price">250.00 SR </span>
+                      </div>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart">
+                  <img src="./assets/img/phone-1.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile phones</span>
+                      <h6>New smart watch series 8</h6>
+                      <p>Black sports bracelet - regular.</p>
+                      <div class="prices">
+                        <del>350.00 SR </del>
+                        <span class="price">250.00 SR </span>
+                      </div>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart count">
+                  <img src="./assets/img/earphone-bluetooth.png" alt="smart-watche" />
+                  <div class="top pri">
+                    <p class="discount desc">25%</p>
+                  </div>
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile phones</span>
+                      <h6>AirPods 3 sim original</h6>
+                      <p>High-fidelity sound headphone</p>
+                      <div class="prices">
+                        <p class="price-bl">250.00 SR </p>
+                      </div>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart count">
+                  <img src="./assets/img/smart-watche2.png" alt="smart-watche" />
+                  <div class="top">
+                    <p class="discount desc">25%</p>
+                  </div>
+                  <div class="content">
+                    <div class="prop">
+                      <span>watches</span>
+                      <h6>New smart watch series 8</h6>
+                      <p>Black sports bracelet - regular.</p>
+                      <div class="prices">
+                        <del>350.00 SR </del>
+                        <span class="price">250.00 SR </span>
+                      </div>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart">
+                  <img
+                    src="./assets/img/headpone-1.png"
+                    alt="smart-watche"
+                  />
+                  <div class="content">
+                    <div class="prop">
+                      <span>Headphones</span>
+                      <h6>headphone original</h6>
+                      <p>High-fidelity sound headphone</p>
+                      <p class="price-bl">250.00 SR </p>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart">
+                  <img src="./assets/img/earphone-bluetooth.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>Mobile Phone</span>
+                      <h6>AirPods 3 sim original</h6>
+                      <p>High-fidelity sound headphone</p>
+                      <p class="price-bl">250.00 SR </p>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart">
+                  <img src="./assets/img/smart-watche2.png" alt="smart-watche" />
+                  <div class="content">
+                    <div class="prop">
+                      <span>watches</span>
+                      <h6>New smart watch series 8</h6>
+                      <p>Black sports bracelet - regular.</p>
+                      <del>350.00 SR </del>
+                      <span class="price">250.00 SR </span>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card flex-col">
+                <div class="smart count">
+                  <img src="./assets/img/headpone-1.png" alt="headpone-1" />
+                  <div class="top">
+                    <p class="discount desc">25%</p>
+                  </div>
+                  <div class="content">
+                    <div class="prop">
+                      <span>headphone original</span>
+                      <h6>headphone original</h6>
+                      <p>High-fidelity sound headphone</p>
+                      <p class="price-bl">250.00 SR </p>
+                    </div>
+                  <div class="react flex-g8">
+                    <button class="like btn-1 flex-center">
+                      <img
+                        src="./assets/img/like.png"
+                        alt="like"
+                        class="icon"
+                      />
+                    </button>
+                    <button class="add btn-1 flex-center">
+                      <a href="#" class="black">Add To Cart</a>
+                      <img
+                        src="./assets/img/cart.png"
+                        alt="cart"
+                        class="icon"
+                      />
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="foot">
+        <div class="container">
+          <div class="info flex">
+            <div class="info-join flex">
+              <div class="email flex-center">
+                <img src="./assets/img/email.png" alt="email">
+              </div>
+            <div class="subscribe">
+              <h5>Subscribe to the newsletter</h5>
+              <p class="gray">Join now and get 10% off your next purchase!</p>
+            </div>
+          </div>
+          <div class="join">
+            <form action="">
+              <input type="email" name="" placeholder="Enter your Email">
+              <button type="submit" class="btn-primary">subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container all-right flex">
+        <div class="reserved">
+          <p class="desc">All rights reserved to the basket platform © 2023</p>
+        </div>
+        <div class="add-info flex-g8">
+          <div class="pay-way flex-g20">
+            <div class="img flex-center">
+              <img src="./assets/img/mada.png" alt="mada">
+            </div>
+            <div class="img flex-center">
+              <img src="./assets/img/paypal.png" alt="paypal">
+            </div>
+            <div class="img flex-center">
+              <img src="./assets/img/master-card.png" alt="master-card">
+            </div>
+            <div class="img flex-center">
+              <img src="./assets/img/visa.png" alt="visa">
+            </div>
+          </div>
+          <div class="number">
+            <p class="desc arab">546987552 : الرقم الضريبي</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
