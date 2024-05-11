@@ -908,9 +908,9 @@ td input[type="radio"]:not(:checked) + label::after {
   padding: 0;
   background-color: #f6f6f6;
   position: absolute;
-  right: 0;
+  left: 30px;
   min-width: 200px;
-  top: calc(100% + 15px);
+  top: 100px;
   display: none;
   z-index: 1;
 }
@@ -949,14 +949,6 @@ td input[type="radio"]:not(:checked) + label::after {
 #all-product .container .table .tab:hover table {
   display:block;
 }
-
-  #all-product .container table {
-    position: absolute;
-    left: 0;
-    top: 250px;
-    display: none;
-    z-index: 1;
-  }
 
   #all-product .container .table {
     position: relative;
