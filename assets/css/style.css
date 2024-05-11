@@ -83,10 +83,6 @@ a {
   line-height: 24px;
 }
 
-.black {
-  color: var(--Dark-Color---Gray--600, #333333);
-}
-
 .gray {
   font-size: 13px;
   font-weight: 400;
@@ -604,6 +600,7 @@ p.desc {
 
 #categories .container .cards {
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 #categories .container .cards .card {
@@ -765,7 +762,6 @@ p.desc {
   border-radius: var(--Radius-Sm);
   background: var(--Dark-Color---White, #ffffff);
   border: 1px solid var(--Dark-Color---Gray---100, #eeeeee);
-  /* height: 279px; */
   padding: var(--Spacing-3xl);
   border-radius: 4px;
 }
@@ -810,48 +806,12 @@ p.desc {
   display: none;
 }
 
-@media screen and (max-width: 992px) {
-  #all-product .container table {
-    position: absolute;
-    left: 0;
-    top: 250px;
-    display: none;
-    z-index: 1;
-  }
 
-  #all-product .container .table {
-    position: relative;
-  }
-
-  .tab {
-    background: var(--Primary-Color---Primary);
-    width: 70px;
-    margin-left: 4rem;
-    margin-bottom: 40px;
-    display: block;
-    border-radius: 17px;
-  }
-
-  #all-product .container .table .tab:hover table {
-    display:block;
-  }
-
-  table::after {
-    content: "";
-    border-width: 10px;
-    border-style: solid;
-    border-color: transparent transparent var(--Dark-Color---Gray) transparent;
-    left: 5px;
-    top: -20px;
-    position: absolute;
-  }
-}
 
 #all-product .container table {
   max-width: 282px;
   border-radius: 6px;
   border: 1px solid var(--Dark-Color---Gray---100, #eeeeee);
-  /* left: 5rem; */
   top: 15rem;
   z-index: 2;
   background-color: var(--Dark-Color---Gray---100);
@@ -941,23 +901,89 @@ td input[type="radio"]:not(:checked) + label::after {
   color: var(--Dark-Color---Gray---100);
 }
 
+@media screen and (max-width: 992px) {
+
+  #all-product .container table {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  position: absolute;
+  right: 0;
+  min-width: 200px;
+  top: calc(100% + 15px);
+  display: none;
+  z-index: 1;
+}
+
+#all-product .container .table:hover table {
+  display: block;
+}
+
+#all-product .container table::before {
+  content: "";
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent #f6f6f6 transparent;
+  left: 10px;
+  top: -30px;
+  position: absolute;
+}
+
+#all-product .container table tr td {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.tab {
+  background: var(--Primary-Color---Primary);
+  width: 70px;
+  margin-left: 4rem;
+  margin-bottom: 40px;
+  display: block;
+  border-radius: 17px;
+}
+
+#all-product .container .table .tab:hover table {
+  display:block;
+}
+
+  #all-product .container table {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    display: none;
+    z-index: 1;
+  }
+
+  #all-product .container .table {
+    position: relative;
+  }
+
+  #all-product .container .table{
+    scrollbar-width:none ;
+
+  }
+}
+
 .product {
   margin-left: 350px;
 }
 
-.product .container .cards .card {
+#all-product .container .product .container .cards .card {
   max-width: 291.33px;
-  /* border: 1px solid var(--Dark-Color---Gray---100); */
-  background-color: #62d0b6;
+  border: 1px solid var(--Dark-Color---Gray---100);
 }
 
 #all-product .container .product .container .cards .card .img {
-  max-width: 200px;
+  max-width: 289px;
 }
 
-.product .container .cards .card img {
+#all-product .container .product .container .cards .card img {
   width: 100%;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px;
 }
 
 .prices .price-bl {
@@ -968,6 +994,10 @@ td input[type="radio"]:not(:checked) + label::after {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+/* ======= end #all-product section ======= */
+
+/* ======= start #details section ======= */
 
 #details .container {
   display: grid;
@@ -1044,15 +1074,13 @@ td input[type="radio"]:not(:checked) + label::after {
   background: var(--Dark-Color---White, #ffffff);
 }
 
-/* #bottom .cards .card img {
+#bottom .cards .card img {
   width: 100%;
-} */
+}
 
-/* start cart page */
+/* ======= end #details section ======= */
 
-/* #cart .container{
-  flex-wrap: nowrap;
-} */
+/* ======= start cart page ======= */
 
 #cart .container .left .cards .card {
   max-width: 920px;
@@ -1392,7 +1420,8 @@ td label {
   #reviews .container .cards,
   #faster .container .cards,
   #bottom .cards,
-  #cart .container {
+  #cart .container,
+  #all-product .container .product .container .cards{
     gap: 32px;
   }
 
